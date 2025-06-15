@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+.logo i {
+  color: white;
+  font-size: 28px;
+  margin-right: 4px;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#active {
+  border: 1px solid rgba(255, 0, 0, 0.8);
+  border-radius: 20px;
+  color: #ff0000;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-input {
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  padding: 6px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.search-input i {
+  color: white;
+}
+
+.search-input span {
+  color: white;
+  font-size: 14px;
+}
+
+.search-box i {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.search-box i:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.background-text {
+  position: absolute;
+  font-size: 300px;
+  font-weight: bold;
+  color: #FFFFFF;
+  opacity: 12%;
+  z-index: 1;
+  top: 200px;
+  left: 450px;
+  pointer-events: none;
+  user-select: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+}
+
+section a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 14px;
+  font-size: 40px;
+  border-radius: 20px;
+  background-color: rgba(43, 32, 32, 0.1);
+  border: 1px solid rgba(63, 47, 47, 0.1);
+  border-radius: 20px;
+  color: #ffffff;
+  margin: 0 100px;
+}
+
+section img {
+  z-index: 2;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 50px 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.stat-box h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.order{
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #707070;
+}
